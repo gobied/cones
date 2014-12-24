@@ -27,7 +27,7 @@ This is an executabel file that calculates the properties of multiple objects an
 
 sim_ele_psf.py
 ==========================
-This is the main executable file that calculates the ultimate functions to fit the profiles taking into account the PSF. The input to this executable is a file (called inits.txt) holding the initial values of the fit parameters as well as a collection of files containing the normalized lateral and radial profiles. It takes several options when being run and these are illustrated in the following examples:
+This is the main executable file that calculates the ultimate functions to fit the profiles taking into account the PSF. The input to this executable is a file (called inits.txt) holding the initial values of the fit parameters as well as a collection of files containing the normalized lateral and radial profiles. The normalized profiles are produced as the output of calc.py when run on 'raw' sections like the example provided. It takes several options when being run and these are illustrated in the following examples:
 
 $ python sim_ele_psf.py --plotInits all
 This command reads a file called inits.txt and uses the values of the parameters to make plots of all objects. No fitting procedure is performed
